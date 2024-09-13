@@ -1,1 +1,99 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Inter;
+}
 
+:root
+{
+    background-color: #242424;
+    color: white;
+    color-scheme: dark;
+}
+body
+{
+    height: 100vh;
+    margin: 0rk;
+}
+
+#app
+{
+    height: -webkit-fill-avaliable;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.content
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer
+{
+    width: 100%;
+    background-color: red;
+}
+
+.list-squares
+{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.square
+{
+    height: 120px;
+    width: 120px;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: 2px solid red;
+    border-radius: 1rem;
+}
+
+.input
+{
+    width: 20rem;
+    font-size: 1.5rem;
+}
+
+.error
+{
+    color: white;
+    visibility: hidden;
+    font-size: 25px;
+}
+
+.btn
+{
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+    transition: backgriund-color 0.25s;
+}
+
+.btn:hover
+{
+    background-color: purple;
+    color: white;
+}
